@@ -14,7 +14,8 @@
   ],
   "scripts": {
     "build": "tsc && shx chmod +x dist/*.js",
-    "watch": "tsc --watch"
+    "watch": "tsc --watch",
+    "postversion": "git push && git push --tags"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "0.6.0",
