@@ -38,7 +38,11 @@ To use this with Claude Desktop, add the following to your `claude_desktop_confi
 {
   "mcpServers": {
     "eyevinn-osc": {
-      "command": "mcp-eyevinn-osc",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@osaas/mcp-server"
+      ],
       "env": {
         "OSC_ACCESS_TOKEN": "<YOUR_TOKEN>"
       }
