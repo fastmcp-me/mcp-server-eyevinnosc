@@ -15,12 +15,16 @@
   "scripts": {
     "build": "tsc && shx chmod +x dist/*.js",
     "watch": "tsc --watch",
+    "lint": "eslint .",
+    "pretty": "prettier --check --ignore-unknown .",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
     "postversion": "git push && git push --tags"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "0.6.0",
-    "@osaas/client-core": "^0.12.0",
+    "@osaas/client-core": "^0.13.0",
     "dotenv": "^16.4.5",
+    "minio": "^8.0.2",
     "zod-to-json-schema": "^3.23.5"
   },
   "devDependencies": {

@@ -5,17 +5,23 @@ MCP Server for [Eyevinn Open Source Cloud](www.osaas.io) API, enabling creation 
 ### Features
 
 - **Database Setup**: Create and setup an SQL-, NoSQL- or memory-database based on open source made available as an open web service.
+- **Storage Setup**: Create an S3 compatible storage bucket based on open source made available as an open web service.
 
 ![screenshot](screenshot.png)
 
 ## Tools
 
-1. `create_db`
+1. `osc_create_db`
    - Create a new database instance
    - Inputs:
      - `name` (string): Name of database instance
      - `type` (string): Type of database (SQL, NoSQL or MemoryDb)
    - Returns: Connection string to database
+2. `osc_create_bucket`
+   - Create a storage bucket
+   - Inputs:
+     - `name` (string): Name of bucket
+   - Returns: Endpoint and credentials to bucket
 
 ## Setup
 
@@ -32,6 +38,7 @@ npm install -g @osaas/mcp-server
 - Copy the Personal Access Token
 
 ### Usage with Claude Desktop
+
 To use this with Claude Desktop, add the following to your `claude_desktop_config.json`:
 
 ```json
@@ -39,10 +46,7 @@ To use this with Claude Desktop, add the following to your `claude_desktop_confi
   "mcpServers": {
     "eyevinn-osc": {
       "command": "npx",
-      "args": [
-        "-y",
-        "@osaas/mcp-server"
-      ],
+      "args": ["-y", "@osaas/mcp-server"],
       "env": {
         "OSC_ACCESS_TOKEN": "<YOUR_TOKEN>"
       }
@@ -50,6 +54,7 @@ To use this with Claude Desktop, add the following to your `claude_desktop_confi
   }
 }
 ```
+
 ## Development
 
 ```
