@@ -25,12 +25,6 @@ MCP Server for [Eyevinn Open Source Cloud](www.osaas.io) API, enabling creation 
 
 ## Setup
 
-### Install MCP server
-
-```
-npm install -g @osaas/mcp-server
-```
-
 ### Personal Access Token
 
 - If you have not already done so, sign up for an [Eyevinn OSC account](https://app.osaas.io).
