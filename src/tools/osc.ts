@@ -13,7 +13,7 @@ export function listOscTools() {
     {
       name: 'osc_upload_file',
       description:
-        'Upload a file to Eyevinn Open Source Cloud. This is a placeholder and not implemented yet.',
+        'Upload a file to Eyevinn Open Source Cloud Storage (OSC) Minio instance',
       inputSchema: zodToJsonSchema(UploadFileSchema)
     }
   ];
