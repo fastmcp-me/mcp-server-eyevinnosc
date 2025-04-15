@@ -1,4 +1,5 @@
 # Eyevinn Open Source Cloud MCP Server
+[![smithery badge](https://smithery.ai/badge/@osaas/mcp-server)](https://smithery.ai/server/@osaas/mcp-server)
 
 This MCP server provides MCP tools for [Eyevinn Open Source Cloud](www.osaas.io) that requires local computer access, for example to upload a file to a storage bucket in OSC. MCP tools for architecting and building solutions with OSC is provided by the remote MCP endpoint that can be accessed using the [OSC remote MCP client](https://www.npmjs.com/package/@osaas/client-mcp).
 
@@ -9,6 +10,14 @@ This MCP server provides MCP tools for [Eyevinn Open Source Cloud](www.osaas.io)
 - Upload a file to a MinIO storage bucket in OSC.
 
 ## Setup
+
+### Installing via Smithery
+
+To install Eyevinn Open Source Cloud MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@osaas/mcp-server):
+
+```bash
+npx -y @smithery/cli install @osaas/mcp-server --client claude
+```
 
 ### Personal Access Token
 
