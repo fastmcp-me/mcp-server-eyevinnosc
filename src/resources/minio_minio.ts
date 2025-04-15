@@ -77,7 +77,7 @@ export async function getMinioInstance(ctx: Context, name: string) {
   return {
     name: instance.name,
     endpoint: instance.url,
-    accessKeyId: 'root',
+    accessKeyId: instance.RootUser || '',
     secretAccessKey: instance.RootPassword || ''
   };
 }
