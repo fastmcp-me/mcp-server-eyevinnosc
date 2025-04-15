@@ -2,6 +2,8 @@
 
 This MCP server provides MCP tools for [Eyevinn Open Source Cloud](www.osaas.io) that requires local computer access, for example to upload a file to a storage bucket in OSC. MCP tools for architecting and building solutions with OSC is provided by the remote MCP endpoint that can be accessed using the [OSC remote MCP client](https://www.npmjs.com/package/@osaas/client-mcp).
 
+<a href="https://glama.ai/mcp/servers/ku9s6ow21e"><img width="380" height="200" src="https://glama.ai/mcp/servers/ku9s6ow21e/badge" alt="Eyevinn Open Source Cloud Server MCP server" /></a>
+
 ### Features
 
 - Upload a file to a MinIO storage bucket in OSC.
