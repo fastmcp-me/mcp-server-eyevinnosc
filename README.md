@@ -5,7 +5,7 @@ This MCP server provides MCP tools for [Eyevinn Open Source Cloud](www.osaas.io)
 
 <a href="https://glama.ai/mcp/servers/ku9s6ow21e"><img width="380" height="200" src="https://glama.ai/mcp/servers/ku9s6ow21e/badge" alt="Eyevinn Open Source Cloud Server MCP server" /></a>
 
-### Features
+### Features provided by the local MCP server
 
 - Upload a file to a MinIO storage bucket in OSC.
 
@@ -32,13 +32,20 @@ To use this with Claude Desktop, add the following to your `claude_desktop_confi
 ```json
 {
   "mcpServers": {
-    "eyevinn-osc": {
+    "local-mcp-osc": {
       "command": "npx",
       "args": ["-y", "@osaas/mcp-server"],
       "env": {
         "OSC_ACCESS_TOKEN": "<YOUR_TOKEN>"
       }
-    }
+    },
+    "remote-mcp-osc": {
+      "command": "npx",
+      "args": ["-y", "@osaas/client-mcp"],
+      "env": {
+        "OSC_ACCESS_TOKEN": "<YOUR_TOKEN>"
+      }
+    } 
   }
 }
 ```
