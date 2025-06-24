@@ -1,6 +1,6 @@
 {
   "name": "@osaas/mcp-server",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "MCP server for using the Eyevinn Open Source Cloud API",
   "license": "MIT",
   "author": "Eyevinn Technology AB (https://www.eyevinn.se)",
