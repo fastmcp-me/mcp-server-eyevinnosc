@@ -8,7 +8,9 @@ This MCP server provides MCP tools for [Eyevinn Open Source Cloud](www.osaas.io)
 
 ### Features provided by the local MCP server
 
+- Create a MinIO storage bucket in OSC.
 - Upload a file to a MinIO storage bucket in OSC.
+- List files on a MinIo storage bucket in OSC.
 
 ## Setup
 
