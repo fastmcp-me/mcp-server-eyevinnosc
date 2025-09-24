@@ -1,3 +1,10 @@
+[![Add to Cursor](https://fastmcp.me/badges/cursor_dark.svg)](https://fastmcp.me/MCP/Details/1152/eyevinn-open-source-cloud)
+[![Add to VS Code](https://fastmcp.me/badges/vscode_dark.svg)](https://fastmcp.me/MCP/Details/1152/eyevinn-open-source-cloud)
+[![Add to Claude](https://fastmcp.me/badges/claude_dark.svg)](https://fastmcp.me/MCP/Details/1152/eyevinn-open-source-cloud)
+[![Add to ChatGPT](https://fastmcp.me/badges/chatgpt_dark.svg)](https://fastmcp.me/MCP/Details/1152/eyevinn-open-source-cloud)
+[![Add to Codex](https://fastmcp.me/badges/codex_dark.svg)](https://fastmcp.me/MCP/Details/1152/eyevinn-open-source-cloud)
+[![Add to Gemini](https://fastmcp.me/badges/gemini_dark.svg)](https://fastmcp.me/MCP/Details/1152/eyevinn-open-source-cloud)
+
 # Eyevinn Open Source Cloud MCP Server
 
 [![smithery badge](https://smithery.ai/badge/@osaas/mcp-server)](https://smithery.ai/server/@osaas/mcp-server)
